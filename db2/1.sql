@@ -20,4 +20,6 @@ create table ordersItem(
 	foreign key(orderId)
 	references orders(orderId)
 );
-
+show tables;
+describe orders;
+describe ordersItem;
